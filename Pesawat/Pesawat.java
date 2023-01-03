@@ -1,4 +1,4 @@
-public class Pesawat {
+abstract class Pesawat {
 
     String namaPesawat ;
     int tahunProduksi ;
