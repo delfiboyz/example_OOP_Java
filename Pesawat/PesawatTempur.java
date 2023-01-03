@@ -12,7 +12,11 @@ public class PesawatTempur extends Pesawat {
         Accesoris accesoris = new Accesoris();
         accesoris.setWarnaPesawat("hitam", "putih");
         accesoris.getWarnaPesawat();
-  
+        Mesin mesin1 = new Mesin();
+        mesin1.setJarakTempuh(200.5);
+        mesin1.setKecepatanMesin(6000.4);
+        mesin1.getKecepatanMesin();
+        mesin1.getJarakTempuh();
         
 
     }
