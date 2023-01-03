@@ -16,6 +16,11 @@ public class PesawatTesla extends Pesawat {
         accesoris.getWarnaPesawat();
         accesoris.setWeapon("Rudal");
         accesoris.getWeapon();
+        Mesin mesin1 = new Mesin();
+        mesin1.setKecepatanMesin(2000);
+        mesin1.getKecepatanMesin();
+        mesin1.setJarakTempuh(200.6);
+        mesin1.getJarakTempuh();
         
         
     }
