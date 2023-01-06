@@ -11,6 +11,11 @@ public class PesawatJet extends Pesawat {
         Accesoris a1 = new Accesoris() ;
         a1.setWarnaPesawat("hitam", "oren");
         a1.getWarnaPesawat();
+        Mesin mesin = new Mesin();
+        mesin.setJarakTempuh(2000.6);
+        mesin.setKecepatanMesin(6000.6);
+        mesin.getJarakTempuh();
+        mesin.getKecepatanMesin();
      
         a1.nos();
         
